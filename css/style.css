@@ -1,0 +1,552 @@
+body {
+    background: #eff0f0; 
+}
+header, header .col-lg-2, header .col-lg-3, .user, .logout {
+    height: 88px;
+    background: #171a1e;
+}
+header .col-lg-2 {
+    border-right: 1px solid #232529;
+}
+header .container-fluid {
+    padding-right: 0;
+}
+.logo img {  
+    margin-top: 26px;
+}
+.logo a:visited {
+    outline: none;
+}
+.time {
+    font-family: Roboto Thin, sans-serif;
+    font-size: 40px;
+    padding-left: 78px;
+    background: url(../img/clock.png) no-repeat 5% 29px;
+    color: #fff;
+    line-height: 88px;
+}
+.date {
+    font-family: Roboto Bold, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #a9a9aa;
+} 	
+.user {
+    font-family: Roboto Regular, sans-serif;
+    font-size: 16px;
+    color: #a9a9aa;
+    padding: 27px 0 0 23px;
+    width: 105px;
+    border-left: 1px solid #232529;
+    float: right;
+}
+.logout {
+    float: right;
+    border-left: 1px solid #232529;
+    width: 80px;
+    text-align: center;
+    padding-top: 35px;
+}
+main .container-fluid:last-child {
+    background: #eff0f0; 
+    text-align: center;		
+    height: 100%;
+}
+main .container-fluid {
+    text-align: center;
+    height: 104px;
+    background: #fff;
+    box-shadow: inset 0 10px 32px -4px rgba(0, 0, 0, 0.2);
+}
+h1, h2, h3, .key {
+    font-family: Roboto Bold, sans-serif;
+    font-size: 36px;
+    color: #171a1e;
+    font-weight: 600;
+}
+h1 {
+    line-height: 75px;
+}
+h2 {
+    padding-bottom: 6px;
+}
+h2, h3 {
+    font-size: 32px;   
+}
+h3 {
+    margin: 8px 0;
+}
+main .row {
+    text-align: center;
+}
+main .col-lg-3 {
+    background: url(../img/tick.png) no-repeat 40px 40px; 
+    background-color: #fff;
+    padding: 84px 40px 40px 40px;
+    text-align: left;
+    margin-left: 16px;
+    float: none;
+    display: inline-block;
+    -webkit-box-shadow: 0 10px 22px -6px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 0 10px 22px -6px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 10px 22px -6px rgba(0, 0, 0, 0.2);
+}
+.download {
+    color: #9c3e32;
+    font-family: Roboto Bold, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.description {
+    font-family: Roboto Regular, sans-serif;   
+    font-size: 12px;
+    color: #5f6063; 	
+}
+.key {
+    font-size: 14px;
+    margin-top: 117px;    
+}
+.getFile {
+    background: url(../img/download.png) no-repeat right;
+    width: 135px;
+}
+.adminLogin {
+    width: 72px; 
+    padding-bottom: 10px;
+}
+.tip {
+    background: url(../img/open.png) no-repeat;
+    display: inline-block;
+    position: relative;
+    height: 14px;
+    width: 15px;  
+    cursor: pointer; 
+}
+.tip:hover .tiptext {
+    visibility: visible;
+}
+.tiptext {
+    visibility: hidden;
+    font-family: Roboto Bold, sans-serif;
+    font-size: 12px; 
+    width: 287px;
+    background-color: #232529;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    font-weight: 600; 
+    margin: -51px 0 0 -244px;
+    height: 41px;
+    line-height: 33px;
+}
+.tip .tiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 87%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+.getFile a, .getFile a:visited, .adminLogin a, .adminLogin a:visited {
+    font-family: Raleway, san-serif;
+    font-size: 20px;
+    color: #9c3e32;
+    text-decoration: none; 
+}
+.adminLogin a, .adminLogin a:visited {
+    color: #5f6063;
+}
+.getFile a:hover, .adminLogin a:hover {
+    text-decoration: none; 
+}
+@media all and (min-width: 0px) and (max-width: 499px) {
+    header, header .col-lg-2, .logout {
+        height: 56px;
+    }
+    .logo img {
+        margin-top: 22px;
+        width: 81px;
+    }
+    .time {
+       font-size: 10px;
+       margin-top: 16px;
+       background: none;
+       line-height: 16px;
+       padding-left: 54px;
+    }
+    .date {
+        margin: 14px 0 0 0;
+        font-size: 10px;
+    }
+    .user {
+        line-height: 17px;
+        font-size: 10px;
+        margin-top: -13px;
+        height: 56px;
+        width: 60px;
+    }
+    .logout {
+        width: 17%;
+        padding-top: 20px;
+    }
+    .day {
+        display: none;
+    }
+    h2 {
+        font-size: 24px;
+        width: 250px;
+        margin: 17px auto;
+    }
+    main .col-lg-3 {
+        padding: 30px 40px 14px 46px;
+        background: url(../img/tick.png) no-repeat 13px 61px;
+        background-color: #fff;
+    }
+    .key {
+        margin-top: 40px;
+    }
+    .col-lg-3 {
+        margin: 0 8px 24px 8px!important;
+    }
+    .tiptext {
+        margin: -39px 0 0 -100px;
+    }
+    .tip .tiptext::after {
+        left: 39%;
+    }
+}
+@media all and (width: 500px) {
+    .col-lg-3 {
+        margin: 0 8px 24px 8px!important;
+    }
+    .time {
+	   background-image: none;
+    }
+    .day {
+	   display: none;
+    }
+    .date {
+    	position: absolute;
+    	margin: 15px 0 0 0;
+    	font-size: 13pt;
+    	font-weight: normal;
+    }
+    .hhmm {
+    	position: absolute;
+    	margin-top: -13px;
+    	font-family: Roboto Regular, sans-serif;
+    	font-size: 13pt;
+    	color: #a9a9aa;
+    }
+    .user, .logout, header .col-lg-2 {
+	   height: 85px;
+    }
+    .logout {
+	   width: 15%;    
+    }
+    main .col-lg-3 {
+    	padding: 30px 40px 40px 99px;
+    }
+    .key {
+    	margin-top: 40px;
+    }
+    h2 {
+    	font-size: 43px;
+    	width: 407px;
+    	margin: 30px auto;
+    }
+    .user {
+	   line-height: 26px;
+       font-size: 13pt;
+       margin-top: -7px;
+    }
+    .tiptext {
+    	margin: -39px 0 0 -62px;
+    }
+    .tip .tiptext::after {
+	   left: 25%;
+    }
+}
+@media all and (min-width: 501px) and (max-width: 592px) {
+    .time {
+    	background: url(../img/clock.png) no-repeat 69% 29px;
+    	height: 85px;
+    	padding-left: 111px;
+    }
+    .hhmm {
+	    position: absolute;
+        margin-top: -11px;
+    	font-family: Roboto Thin, sans-serif;
+    	font-size: 20px;
+    	color: #fff;
+    }    
+    .date {
+	    position: absolute;
+    	margin: 15px 0 0 0;
+    	font-size: 12px;
+    	font-weight: normal;
+    	width: 172px;
+    }
+    .user {
+	    line-height: 26px;
+        font-size: 13pt;
+        margin-top: -7px;
+	    width: 78px;
+    }
+    h2 {
+	   font-size: 24px;
+    }
+    main .col-lg-3 {
+        padding: 30px 40px 27px 66px;
+    	background: url(../img/tick.png) no-repeat 23px 67px;
+    	background-color: #fff;
+    }
+    .col-lg-3 {
+        margin: 0 8px 24px 8px!important;
+    }
+    .getFile, .adminLogin {
+	    display: inline-block;
+    	position: absolute;
+    	right: 20px;
+    	top: 68px;
+    }
+    .key {
+        display: inline-block;
+    	position: absolute;
+    	top: -84px;
+    	right: 19px;
+	   font-size: 10px;
+    }
+    .getFile a {
+	   font-size: 16px;
+    }
+}
+@media all and (min-width: 593px) and (max-width: 768px) { 
+    .time {
+	   width: 275px;
+	   padding-top: 4px;
+       height: 85px;
+	   background: url(../img/clock.png) no-repeat 10% 32px;
+    }
+    .hhmm {
+	    position: inherit;
+    	font-family: Roboto Thin, sans-serif;
+    	font-size: 40px;
+    	color: #fff;
+    }    
+    .date {
+	    position: inherit;
+    	font-size: 14px;
+    	font-weight: 600;
+    	width: auto;
+    }
+    .user {
+	    line-height: 26px;
+        font-size: 13pt;
+        margin-top: -7px;
+	    width: 76px;
+    }
+    h2 {
+	   font-size: 32px;
+    }
+    main .col-lg-3 {
+    	padding: 30px 40px 27px 66px;
+	    background: url(../img/tick.png) no-repeat 23px 67px;
+	    background-color: #fff;
+    }
+    .col-lg-3 {
+        margin: 0 8px 24px 8px!important;
+    }
+    .getFile, .adminLogin {
+	    display: inline-block;
+    	position: absolute;
+    	right: 20px;
+    	top: 71px;
+    }
+    .key {
+        display: inline-block;
+    	position: absolute;
+	    top: -39px;
+    	right: 173px;
+	    font-size: 10px;
+    }
+    .getFile {
+    	background: url(../img/download.png) no-repeat right 1px;
+	    width: 106px;
+    }
+    .getFile a {
+	   font-size: 16px;
+    }
+    .day {
+        display: none;
+    }
+}
+@media all and (min-width: 769px) and (max-width: 1007px) { 
+    .time {
+	    width: 352px;
+	    padding-top: 4px;
+    	height: 85px;
+	    background: url(../img/clock.png) no-repeat 10% 32px;
+    }
+    .hhmm {
+	    position: inherit;
+    	font-family: Roboto Thin, sans-serif;
+    	font-size: 40px;
+    	color: #fff;
+    }    
+    .date {
+	    position: inherit;
+    	font-size: 14px;
+    	font-weight: 600;
+    	width: auto;
+    }
+    .user {
+	    line-height: 26px;
+        font-size: 13pt;
+        margin-top: -7px;
+	    width: 78px;
+    }
+    h2 {
+	   font-size: 32px;
+    }
+    main .col-lg-3 {
+    	padding: 30px 40px 27px 66px;
+	    background: url(../img/tick.png) no-repeat 23px 67px;
+	    background-color: #fff;
+    }
+    .col-lg-3 {
+        margin: 0 8px 24px 8px!important;
+    }
+    .getFile, .adminLogin {
+	    display: inline-block;
+    	position: absolute;
+    	right: 20px;
+    	top: 71px;
+    }
+    .key {
+        display: inline-block;
+    	position: absolute;
+	    top: -39px;
+    	right: 173px;
+	    font-size: 10px;
+    }
+    .getFile {
+    	background: url(../img/download.png) no-repeat right 1px;
+	    width: 106px;
+    }
+    .getFile a {
+	   font-size: 16px;
+    }
+}
+@media all and (min-width: 1008px) and (max-width: 1199px) { 
+    .col-lg-3 {
+        width: 98%;
+    }
+    .time {
+	   width: 352px;
+	   padding-top: 4px;
+       height: 85px;
+	   background: url(../img/clock.png) no-repeat 10% 32px;
+    }
+    .hhmm {
+	    position: inherit;
+    	font-family: Roboto Thin, sans-serif;
+    	font-size: 40px;
+    	color: #fff;
+    }    
+    .date {
+	    position: inherit;
+    	font-size: 14px;
+    	font-weight: 600;
+    	width: auto;
+    }
+    .user {
+	    line-height: 26px;
+        font-size: 13pt;
+        margin-top: -7px;
+	    width: 78px;
+    }
+    .user p {
+        margin-left: -5px;
+    }
+    h2 {
+	    font-size: 32px;
+    }
+    main .col-lg-3 {
+    	padding: 30px 40px 27px 103px;
+	    background: url(../img/tick.png) no-repeat 23px 67px;
+	    background-color: #fff;
+    }
+    .col-lg-3 {
+        margin: 0 8px 24px 8px!important;
+    }
+    .getFile, .adminLogin {
+	    display: inline-block;
+    	position: absolute;
+    	right: 20px;
+    	top: 71px;
+    }
+    .key {
+        display: inline-block;
+    	position: absolute;
+	    top: -39px;
+    	right: 173px;
+	    font-size: 14px;
+    }
+    .getFile {
+    	background: url(../img/download.png) no-repeat right 1px;
+	    width: 106px;
+    }
+    .getFile a {
+	   font-size: 16px;
+    }
+}
+@media all and (max-width: 708px) and (min-width: 604px) {   
+    .time {
+        width: 274px;
+    }
+    .day {
+        display: none;
+    }
+}
+@media all and (max-width: 603px) and (min-width: 593px) {   
+    .time {
+        width: 265px;
+        background: none;
+    }
+    .day {
+        display: none;
+    }
+    .hhmm {
+        font-size: 39px;
+    }
+}
+@media all and (max-width: 557px) and (min-width: 501px) {   
+    .day {
+        display: none;
+    }
+}
+@media all and (max-width: 663px) and (min-width: 593px) {   
+    .key {
+        display: inline-block;
+        position: absolute;
+        top: -84px;
+        right: 19px;
+        font-size: 10px;
+    }
+}
+@media all and (min-width: 1200px) and (max-width: 1919px) {   
+    .col-lg-3 {
+        width: 31%;
+    }
+}
+@media all and (min-width: 1920px) {
+    .col-lg-3 {
+        width: 19%;
+    }
+}
